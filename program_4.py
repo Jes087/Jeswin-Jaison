@@ -1,4 +1,4 @@
-input_numbers=[10,3,5,72,50,34,35,70]
+input_numbers=[int(x) for x in input.split()]
 numberlist={}
 for number in input_numbers:
     if number%1==0:
